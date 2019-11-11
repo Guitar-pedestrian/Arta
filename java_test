@@ -1,3 +1,33 @@
+class Book{
+  privite String name;
+  private double price;
+ 
+ /* public Book(){
+     this.name = name;
+     this.price = price;
+  }
+  */
+  
+  public void setName(String name){
+    this.name = name;
+  }
+  public void setPrice(double price){
+    this.price = price;
+  }
+  
+  public String getName(){
+    return this.name;
+  }
+  
+  public String getPrice(){
+    return this.price;
+  }
+  
+  public void getInfo(){
+     return "书名："+ this.name+ ", 价格：" + this.price;
+  }
+  
+}
 public class TestDemo{
     public static void main(String args[]){
        System.out.println("Hello World!");
